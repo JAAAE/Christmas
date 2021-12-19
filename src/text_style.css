@@ -6,6 +6,8 @@
 html {
     margin: 0px;
     padding: 0px;
+    height: -webkit-fill-available;
+
 
 
 
@@ -29,5 +31,6 @@ body {
     text-align: center;
     font-family: "Poppins", sans-serif;
     margin: 5px;
-    height: 100vh
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
