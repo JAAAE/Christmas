@@ -5,7 +5,16 @@
 }
 
 body {
-    background-color: #023044;;
+    background-color: #023044;
+    background-image: url('giftbox.png');
+    background-repeat: no-repeat;
+    background-position: 0 -69px;
+    background-size: 100% auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     color: white;
     font-family: 'Lobster', cursive;
     font-size: 1.5rem;
