@@ -3,9 +3,14 @@
 * {
     box-sizing: border-box;
 }
-html{
-    height:100vh
+html {
+    margin: 0px;
+    padding: 0px;
+
+
+
 }
+
 body {
     background-color: #023044;
     background-image: url('img/presents.png'),url('img/snow-globe.png');
