@@ -6,7 +6,7 @@
 
 body {
     background-color: #023044;
-    background-image: url(img/giftbox.png);
+    background-image: url('img/giftbox.png');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% ;
