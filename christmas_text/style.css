@@ -8,7 +8,7 @@ body {
     background-color: #023044;
     background-image: url('/christmas_text/giftbox.png');
     background-repeat: no-repeat;
-    background-position: 0 -69px;
+    background-position: center bottom;
     background-size: 50% ;
     position: absolute;
     left: 0;
