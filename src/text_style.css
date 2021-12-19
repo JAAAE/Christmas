@@ -6,23 +6,21 @@
 
 body {
     background-color: #023044;
-    background-image: url('img/giftbox.png');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100% ;
-    position: absolute;
+    background-image: url('img/presents.png'),url('img/snow-globe.png');
+    background-repeat: no-repeat,no-repeat;
+    background-position: left bottom,right bottom ;
+    background-size: 15vh,15vh ;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     color: white;
-    font-family: 'Lobster', cursive;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    margin: 5;
+    margin: 5px;
     min-height: 100vh
 }
