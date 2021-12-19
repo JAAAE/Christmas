@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet" />
-    <script src="Leaflet.MovingMarker/MovingMarker.js"></script>
+    <script src="src/Leaflet.MovingMarker/MovingMarker.js"></script>
 
 
 
@@ -56,7 +56,7 @@
 
     <div id="map" ></div>
 
-    <script src="Leaflet.MovingMarker/route.js"></script>
+    <script src="src/Leaflet.MovingMarker/route.js"></script>
 
     <script>
 
@@ -68,7 +68,7 @@
             layer: [osmLayer],
         });
         var myicon = L.icon({
-            iconUrl: 'sleigh.png',
+            iconUrl: 'img/sleigh.png',
             iconSize: [50, 50],
             popupAnchor: [0, -25],
         });
@@ -90,7 +90,7 @@
         marker.bindPopup('<b>wait wait wait</b><br><b>我快要到了！<b> <a target="\\\blanck" href="christmas_text/index.html"></a>', { closeOnClick: false })
                 .openPopup();
         marker.on('end', function () {
-            marker.bindPopup('<b>呼～您的包裹已經到達囉</b><br><b>請簽收！</b> <br><a target="\\\blanck" href="christmas_text/index.html"><img src="giftbox.png" width="30px" height="30px"></br></a>', { closeOnClick: false })
+            marker.bindPopup('<b>呼～您的包裹已經到達囉</b><br><b>請簽收！</b> <br><a target="\\\blanck" href="christmas_text/index.html"><img src="img/giftbox.png" width="30px" height="30px"></br></a>', { closeOnClick: false })
                 .openPopup();
         });
 
